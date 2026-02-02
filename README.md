@@ -17,10 +17,10 @@ This milestone consists of two main components:
 1️⃣ Unique Object Dataset Creation (Individual Task)
 
 Each student was required to:
+- Identify one unique physical object
+- Generate at least 100 images of that object
+- Ensure variation in:
 
-	•	Identify one unique physical object
-	•	Generate at least 100 images of that object
-	•	Ensure variation in:
 	•	Angles
 	•	Lighting conditions
 	•	Backgrounds
@@ -30,22 +30,20 @@ Each student was required to:
 This step ensures dataset diversity, which is essential for training robust computer vision models.
 
 2️⃣ Deep Learning Model Development 
-
-	•	Combined all individual object datasets
-	•	Prepared and organized the dataset for training
-	•	Implemented and tested multiple deep learning models
-	•	Compared performance across models
-	•	Identified the best-performing model for this dataset
+- Combined all individual object datasets
+- Prepared and organized the dataset for training
+- Implemented and tested multiple deep learning models
+- Compared performance across models
+- Identified the best-performing model for this dataset
 
 ---
 
 🧠 Models Evaluated
 
 The following deep learning approaches were tested:
-
-	•	Convolutional Neural Networks (CNN-based models)
-	•	Transfer Learning models (pretrained architectures)
-	•	Custom architectures where applicable
+- Convolutional Neural Networks (CNN-based models)
+- Transfer Learning models (pretrained architectures)
+- Custom architectures where applicable
 
 Each model was trained and evaluated under the same conditions for fair comparison.
 
@@ -65,12 +63,11 @@ These metrics helped assess both overall performance and class-level behavior.
 
 🏆 Best Model Selection
 
-- The final model was chosen based on:
-
-	•	Highest test accuracy
-	•	Strong macro F1-score
-	•	Balanced performance across classes
-	•	Stable training behavior (no overfitting or instability)
+The final model was chosen based on:
+- Highest test accuracy
+- Strong macro F1-score
+- Balanced performance across classes
+- Stable training behavior (no overfitting or instability)
 
 The selected model is the most suitable for this dataset and object recognition task.
 
@@ -95,30 +92,27 @@ The selected model is the most suitable for this dataset and object recognition 
 ---
 
 📌 Metrics Used
-
-	•	Validation Accuracy – Performance during training to monitor overfitting
-	•	Test Accuracy – Final performance on unseen data
-	•	F1 Score (Macro) – Balance between precision and recall across all classes
+- Validation Accuracy – Performance during training to monitor overfitting
+- Test Accuracy – Final performance on unseen data
+- F1 Score (Macro) – Balance between precision and recall across all classes
 
 ---
 
 📁 Repository Contents
-
-	•	Dataset (generated object images)
-	•	Training and evaluation code
-	•	Model performance results
-	•	Confusion matrices and reports
-	•	Final analysis of model comparison
+- Dataset (generated object images)
+- Training and evaluation code
+- Model performance results
+- Confusion matrices and reports
+- Final analysis of model comparison
 
 ---
 
 🎯 Key Learning Outcomes
-
-	•	Building a custom computer vision dataset
-	•	Understanding how data diversity impacts model performance
-	•	Applying deep learning for image classification
-	•	Comparing multiple architectures for the same task
-	•	Selecting models based on metrics, not assumptions
+- Building a custom computer vision dataset
+- Understanding how data diversity impacts model performance
+- Applying deep learning for image classification
+- Comparing multiple architectures for the same task
+- Selecting models based on metrics, not assumptions
 
 ---
 
