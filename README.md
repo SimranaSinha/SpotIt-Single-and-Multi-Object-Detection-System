@@ -53,12 +53,11 @@ Each model was trained and evaluated under the same conditions for fair comparis
 
 📊 Evaluation Metrics
 
-- Model performance was measured using:
-
-	•	Accuracy
-	•	F1-Score
-	•	Confusion Matrix
-	•	Classification Report
+Model performance was measured using:
+- Accuracy
+- F1-Score
+- Confusion Matrix
+- Classification Report
 
 These metrics helped assess both overall performance and class-level behavior.
 
