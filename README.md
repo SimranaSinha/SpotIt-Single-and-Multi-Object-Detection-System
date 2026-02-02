@@ -1,10 +1,10 @@
 # SpotIt-Single-and-Multi-Object-Detection-System
 
-Dataset : https://drive.google.com/drive/folders/1eZE1CZG9d6RfkAMmHSeuF4QSLXk4HpvZ
+# Dataset : https://drive.google.com/drive/folders/1eZE1CZG9d6RfkAMmHSeuF4QSLXk4HpvZ
 
 ⸻ 
 
-Milestone 1 — Object Identification & Deep Learning Model Evaluation
+# Milestone 1 — Object Identification & Deep Learning Model Evaluation
 
 This project focuses on building a custom image dataset around a single real-world object and evaluating multiple deep learning models to determine the most suitable approach for object recognition.
 
@@ -116,3 +116,5 @@ ResNet18 achieved the highest accuracy and F1 score, showing strong generalizati
 ---
 
 This milestone establishes the foundation for more advanced object detection and multi-object tasks in later phases.
+
+⸻ 
