@@ -91,6 +91,7 @@ The selected model is the most suitable for this dataset and object recognition 
 ---
 
 📌 Metrics Used
+
 	•	Validation Accuracy – Performance during training to monitor overfitting
 	•	Test Accuracy – Final performance on unseen data
 	•	F1 Score (Macro) – Balance between precision and recall across all classes
@@ -98,6 +99,7 @@ The selected model is the most suitable for this dataset and object recognition 
 ---
 
 📁 Repository Contents
+
 	•	Dataset (generated object images)
 	•	Training and evaluation code
 	•	Model performance results
@@ -107,6 +109,7 @@ The selected model is the most suitable for this dataset and object recognition 
 ---
 
 🎯 Key Learning Outcomes
+
 	•	Building a custom computer vision dataset
 	•	Understanding how data diversity impacts model performance
 	•	Applying deep learning for image classification
