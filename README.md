@@ -50,7 +50,7 @@ Each model was trained and evaluated under the same conditions for fair comparis
 
 📊 Evaluation Metrics
 
-Model performance was measured using:
+- Model performance was measured using:
 	•	Accuracy
 	•	F1-Score
 	•	Confusion Matrix
@@ -62,7 +62,7 @@ These metrics helped assess both overall performance and class-level behavior.
 
 🏆 Best Model Selection
 
-The final model was chosen based on:
+- The final model was chosen based on:
 	•	Highest test accuracy
 	•	Strong macro F1-score
 	•	Balanced performance across classes
@@ -74,7 +74,7 @@ The selected model is the most suitable for this dataset and object recognition 
 
 📊 Model Performance Summary
 
-The following table shows the performance of all deep learning models evaluated on the dataset.
+- The following table shows the performance of all deep learning models evaluated on the dataset.
 
 | Model Name           | Validation Accuracy | Test Accuracy | Test F1 Score (Macro) |
 |----------------------|---------------------|---------------|-----------------------|
@@ -86,7 +86,7 @@ The following table shows the performance of all deep learning models evaluated 
 
 🏆 Best Performing Model
 
-ResNet18 achieved the highest accuracy and F1 score, showing strong generalization and balanced class performance. It was selected as the final model for this dataset.
+- ResNet18 achieved the highest accuracy and F1 score, showing strong generalization and balanced class performance. It was selected as the final model for this dataset.
 
 ---
 
