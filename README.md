@@ -2,13 +2,13 @@
 
 Dataset : https://drive.google.com/drive/folders/1eZE1CZG9d6RfkAMmHSeuF4QSLXk4HpvZ
 
----
+⸻ 
 
 Milestone 1 — Object Identification & Deep Learning Model Evaluation
 
 This project focuses on building a custom image dataset around a single real-world object and evaluating multiple deep learning models to determine the most suitable approach for object recognition.
 
-⸻
+---
 
 📌 Project Objectives
 
@@ -28,17 +28,14 @@ Each student was required to:
 
 This step ensures dataset diversity, which is essential for training robust computer vision models.
 
-⸻
-
 2️⃣ Deep Learning Model Development 
-
 	•	Combined all individual object datasets
 	•	Prepared and organized the dataset for training
 	•	Implemented and tested multiple deep learning models
 	•	Compared performance across models
 	•	Identified the best-performing model for this dataset
 
-⸻
+---
 
 🧠 Models Evaluated
 
@@ -49,7 +46,7 @@ The following deep learning approaches were tested:
 
 Each model was trained and evaluated under the same conditions for fair comparison.
 
-⸻
+---
 
 📊 Evaluation Metrics
 
@@ -61,7 +58,7 @@ Model performance was measured using:
 
 These metrics helped assess both overall performance and class-level behavior.
 
-⸻
+---
 
 🏆 Best Model Selection
 
@@ -73,35 +70,32 @@ The final model was chosen based on:
 
 The selected model is the most suitable for this dataset and object recognition task.
 
-⸻
-Perfect, here’s a clean version formatted specifically for a README.md.
-
-⸻
+---
 
 📊 Model Performance Summary
 
 The following table shows the performance of all deep learning models evaluated on the dataset.
 
-Model Name	Validation Accuracy	Test Accuracy	Test F1 Score (Macro)
-SimpleCNN	62.01%	60.45%	57.66%
-ResNet18	99.68%	98.87%	98.84%
-MobileNetV3Small	97.24%	96.76%	96.73%
+| Model Name           | Validation Accuracy | Test Accuracy | Test F1 Score (Macro) |
+|----------------------|---------------------|---------------|-----------------------|
+| SimpleCNN            | 62.01%              | 60.45%        | 57.66%                |
+| ResNet18             | 99.68%              | 98.87%        | 98.84%                |
+| MobileNetV3Small     | 97.24%              | 96.76%        | 96.73%                |
 
-
-⸻
+---
 
 🏆 Best Performing Model
 
 ResNet18 achieved the highest accuracy and F1 score, showing strong generalization and balanced class performance. It was selected as the final model for this dataset.
 
-⸻
+---
 
 📌 Metrics Used
 	•	Validation Accuracy – Performance during training to monitor overfitting
 	•	Test Accuracy – Final performance on unseen data
 	•	F1 Score (Macro) – Balance between precision and recall across all classes
 
-⸻
+---
 
 📁 Repository Contents
 	•	Dataset (generated object images)
@@ -110,7 +104,7 @@ ResNet18 achieved the highest accuracy and F1 score, showing strong generalizati
 	•	Confusion matrices and reports
 	•	Final analysis of model comparison
 
-⸻
+---
 
 🎯 Key Learning Outcomes
 	•	Building a custom computer vision dataset
@@ -119,6 +113,6 @@ ResNet18 achieved the highest accuracy and F1 score, showing strong generalizati
 	•	Comparing multiple architectures for the same task
 	•	Selecting models based on metrics, not assumptions
 
-⸻
+---
 
 This milestone establishes the foundation for more advanced object detection and multi-object tasks in later phases.
