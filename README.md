@@ -21,11 +21,11 @@ Each student was required to:
 - Generate at least 100 images of that object
 - Ensure variation in:
 
-	•	Angles
-	•	Lighting conditions
-	•	Backgrounds
-	•	Distance and orientation
-	•	Upload all images to the shared group folder
+  - 	Angles
+  - 	Lighting conditions
+  - 	Backgrounds
+  - 	Distance and orientation
+  - 	Upload all images to the shared group folder
 
 This step ensures dataset diversity, which is essential for training robust computer vision models.
 
