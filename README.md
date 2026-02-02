@@ -17,6 +17,7 @@ This milestone consists of two main components:
 1️⃣ Unique Object Dataset Creation (Individual Task)
 
 Each student was required to:
+
 	•	Identify one unique physical object
 	•	Generate at least 100 images of that object
 	•	Ensure variation in:
@@ -29,6 +30,7 @@ Each student was required to:
 This step ensures dataset diversity, which is essential for training robust computer vision models.
 
 2️⃣ Deep Learning Model Development 
+
 	•	Combined all individual object datasets
 	•	Prepared and organized the dataset for training
 	•	Implemented and tested multiple deep learning models
@@ -40,6 +42,7 @@ This step ensures dataset diversity, which is essential for training robust comp
 🧠 Models Evaluated
 
 The following deep learning approaches were tested:
+
 	•	Convolutional Neural Networks (CNN-based models)
 	•	Transfer Learning models (pretrained architectures)
 	•	Custom architectures where applicable
@@ -51,6 +54,7 @@ Each model was trained and evaluated under the same conditions for fair comparis
 📊 Evaluation Metrics
 
 - Model performance was measured using:
+
 	•	Accuracy
 	•	F1-Score
 	•	Confusion Matrix
@@ -63,6 +67,7 @@ These metrics helped assess both overall performance and class-level behavior.
 🏆 Best Model Selection
 
 - The final model was chosen based on:
+
 	•	Highest test accuracy
 	•	Strong macro F1-score
 	•	Balanced performance across classes
