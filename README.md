@@ -182,5 +182,3 @@ The system successfully detects and localizes objects with assigned IDs, showcas
 
 
 
-* Or tailor it for academic submission formatting
-
