@@ -1,121 +1,186 @@
-# SpotIt-Single-and-Multi-Object-Detection-System
+# SpotIt – Single and Multi-Object Detection System
 
-- Dataset : https://drive.google.com/drive/folders/1eZE1CZG9d6RfkAMmHSeuF4QSLXk4HpvZ
+An end-to-end deep learning project focused on custom object identification and multi-object detection using synthetic dataset generation and YOLOv8.
 
----
-
-# Milestone 1 — Object Identification & Deep Learning Model Evaluation
-
-This project focuses on building a custom image dataset around a single real-world object and evaluating multiple deep learning models to determine the most suitable approach for object recognition.
+This project progressively builds from single-object dataset creation to full multi-object detection with bounding box localization and model evaluation.
 
 ---
 
-📌 Project Objectives
+## Project Overview
 
-This milestone consists of two main components:
+The project is divided into structured milestones:
 
-1️⃣ Unique Object Dataset Creation (Individual Task)
+* **Milestone 1** – Object Identification & Deep Learning Model Evaluation
+* **Milestone 2** – Multi-Object Dataset Generation & YOLO Annotation
+* **Milestone 3** – Custom YOLOv8 Training & Detection 
+* **Milestone 4** – Final Reporting
 
-Each student was required to:
-- Identify one unique physical object
-- Generate at least 100 images of that object
-- Ensure variation in:
-
-  - 	Angles
-  - 	Lighting conditions
-  - 	Backgrounds
-  - 	Distance and orientation
-  - 	Upload all images to the shared group folder
-
-This step ensures dataset diversity, which is essential for training robust computer vision models.
-
-2️⃣ Deep Learning Model Development 
-- Combined all individual object datasets
-- Prepared and organized the dataset for training
-- Implemented and tested multiple deep learning models
-- Compared performance across models
-- Identified the best-performing model for this dataset
+The goal is to design a complete object detection pipeline from dataset creation to model evaluation.
 
 ---
 
-🧠 Models Evaluated
+# Milestone 1 – Object Identification & Model Evaluation
 
-The following deep learning approaches were tested:
-- Convolutional Neural Networks (CNN-based models)
-- Transfer Learning models (pretrained architectures)
-- Custom architectures where applicable
+This milestone focuses on building a custom dataset around a single real-world object and evaluating multiple deep learning models to determine the most suitable approach.
 
-Each model was trained and evaluated under the same conditions for fair comparison.
+### Objectives
 
----
+* Identify one unique physical object
+* Generate at least 100 images
+* Introduce variation in:
 
-📊 Evaluation Metrics
+  * Angles
+  * Lighting
+  * Background
+  * Orientation
+* Train and compare deep learning models
 
-Model performance was measured using:
-- Accuracy
-- F1-Score
-- Confusion Matrix
-- Classification Report
+### Work Completed
 
-These metrics helped assess both overall performance and class-level behavior.
+* Dataset creation (100+ images)
+* Image preprocessing
+* Data splitting (Train / Validation / Test)
+* Model training and performance comparison
+* Selection of best-performing model
 
----
+### Key Learning
 
-🏆 Best Model Selection
+* Data diversity improves generalization
+* Transfer learning outperforms training from scratch for small datasets
+* Overfitting occurs quickly in limited datasets without augmentation
 
-The final model was chosen based on:
-- Highest test accuracy
-- Strong macro F1-score
-- Balanced performance across classes
-- Stable training behavior (no overfitting or instability)
+Files:
 
-The selected model is the most suitable for this dataset and object recognition task.
-
----
-
-📊 Model Performance Summary
-
-- The following table shows the performance of all deep learning models evaluated on the dataset.
-
-| Model Name           | Validation Accuracy | Test Accuracy | Test F1 Score (Macro) |
-|----------------------|---------------------|---------------|-----------------------|
-| SimpleCNN            | 62.01%              | 60.45%        | 57.66%                |
-| ResNet18             | 99.68%              | 98.87%        | 98.84%                |
-| MobileNetV3Small     | 97.24%              | 96.76%        | 96.73%                |
+* `Milestone1 (Group5).ipynb`
+* `Milestone_1_Group_5.pdf`
+* `Milestone 1 README.md`
 
 ---
 
-🏆 Best Performing Model
+# Milestone 2 – Multi-Object Dataset & YOLO Labeling
 
-- ResNet18 achieved the highest accuracy and F1 score, showing strong generalization and balanced class performance. It was selected as the final model for this dataset.
+This milestone extends the project to multi-object detection by generating synthetic images and preparing YOLO-format annotations.
+
+### Objectives
+
+* Generate 100+ multi-object images
+* Random placement of objects
+* Automatic bounding box generation
+* Assign object ID based on folder name
+* Save annotations in YOLO format
+
+### Implementation Highlights
+
+* Image compositing using PIL
+* Random scaling and positioning
+* IoU-based overlap control
+* Normalized YOLO annotation format:
+
+```
+class_id x_center y_center width height
+```
+
+### Key Learning
+
+* Proper bounding box normalization is critical
+* Controlled randomness improves model robustness
+* Label consistency directly impacts YOLO performance
+
+Files:
+
+* `Milestone2.ipynb`
+* `Milestone 2 README.md`
 
 ---
 
-📌 Metrics Used
-- Validation Accuracy – Performance during training to monitor overfitting
-- Test Accuracy – Final performance on unseen data
-- F1 Score (Macro) – Balance between precision and recall across all classes
+# Milestone 3 – YOLOv8 Custom Training and Detecting
+
+The final detection system was built using YOLOv8 for multi-object detection.
+
+### Pipeline
+
+* Dataset split (Train / Val / Test)
+* Custom `data.yaml`
+* YOLOv8 model training
+* Performance evaluation
+
+### Evaluation Metrics
+
+* mAP (Mean Average Precision)
+* Precision
+* Recall
+* F1 Score
+
+### Results
+
+* Successful object ID detection
+* Accurate bounding box localization
+* Stable performance across validation set
+* Improved detection with augmentation
+
+Files:
+
+* `Training and Testing.ipynb`
+* `Milestone 3 README.md`
 
 ---
 
-📁 Repository Contents
-- Dataset (generated object images)
-- Training and evaluation code
-- Model performance results
-- Confusion matrices and reports
-- Final analysis of model comparison
+# Technical Stack
+
+* Python
+* PyTorch
+* YOLOv8 (Ultralytics)
+* PIL (Image Processing)
+* NumPy
+* Google Colab
 
 ---
 
-🎯 Key Learning Outcomes
-- Building a custom computer vision dataset
-- Understanding how data diversity impacts model performance
-- Applying deep learning for image classification
-- Comparing multiple architectures for the same task
-- Selecting models based on metrics, not assumptions
+# Repository Structure
+
+```
+SpotIt-Single-and-Multi-Object-Detection-System/
+│
+├── Milestone 1/
+│   ├── Milestone1 (Group5).ipynb
+│   ├── Milestone_1_Group_5.pdf
+│   ├── README.md
+│
+├── Milestone 2/
+│   ├── Milestone2.ipynb
+│   ├── Milestone_2_Group_5_Report.pdf
+│   ├── README.md
+│
+├── Milestone 3/
+│   ├── Training and Testing.ipynb
+│
+├── README.md   (Main Project Overview)
+```
 
 ---
 
-This milestone establishes the foundation for more advanced object detection and multi-object tasks in later phases.
+# Key Takeaways
 
-⸻ 
+* Building a clean dataset is as important as model selection
+* Synthetic data generation can effectively train object detection models
+* YOLO requires precise annotation formatting
+* Folder-based class labeling simplifies ID mapping
+* Model evaluation must consider both accuracy and localization performance
+
+---
+
+# Final Conclusion
+
+This project demonstrates the full lifecycle of a custom object detection system:
+
+1. Dataset creation
+2. Model experimentation
+3. Multi-object synthetic generation
+4. YOLO training and evaluation
+
+The system successfully detects and localizes objects with assigned IDs, showcasing practical implementation of deep learning-based object detection.
+
+
+
+* Or tailor it for academic submission formatting
+
