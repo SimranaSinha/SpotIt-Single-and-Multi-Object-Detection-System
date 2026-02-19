@@ -1,0 +1,12 @@
+# YOLOv8 Dataset Configuration
+# Auto-generated grid-based multi-object dataset
+
+path: /content/drive/MyDrive/Output_Folder_YoLo
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 39
+
+# Class names (OBJ IDs like OBJ021, OBJ022, etc.)
+names: ['OBJ786', 'OBJ788', 'OBJ789', 'OBJ069', 'OBJ007', 'OBJ027', 'OBJ090', 'OBJ787', 'OBJ001', 'OBJ002', 'OBJ003', 'OBJ004', 'OBJ005', 'OBJ006', 'OBJ008', 'OBJ009', 'OBJ010', 'OBJ012', 'OBJ016', 'OBJ018', 'OBJ019', 'OBJ021', 'OBJ022', 'OBJ028', 'OBJ029', 'OBJ031', 'OBJ061', 'OBJ095', 'OBJ107', 'OBJ108', 'OBJ111', 'OBJ159', 'OBJ208', 'OBJ222', 'OBJ229', 'OBJ230', 'OBJ311', 'OBJ405', 'images_OBJ_300']
