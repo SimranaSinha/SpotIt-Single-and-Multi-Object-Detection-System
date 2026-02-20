@@ -149,6 +149,7 @@ SpotIt-Single-and-Multi-Object-Detection-System/
 ├── Milestone 2/
 │   ├── Milestone2.ipynb
 │   ├── Milestone_2_Group_5_Report.pdf
+│   ├── data.yaml
 │   ├── README.md
 │
 ├── Milestone 3/
@@ -156,6 +157,7 @@ SpotIt-Single-and-Multi-Object-Detection-System/
 │   ├── README.md
 │
 ├── README.md   (Main Project Overview)
+
 ```
 
 ---
