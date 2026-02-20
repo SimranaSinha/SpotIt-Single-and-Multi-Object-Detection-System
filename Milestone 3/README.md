@@ -1,9 +1,3 @@
-Perfect. Since your Milestone 1 README is structured, academic, and objective-driven, I’ll keep Milestone 3 in the **same tone and format**.
-
-Here’s a clean **Milestone 3 README.md** you can directly paste into your `Milestone 3` folder.
-
----
-
 # Milestone 3 — Multi-Object Detection & YOLOv8 Model Evaluation
 
 This milestone focuses on training and evaluating a custom YOLOv8 model for multi-object detection using the dataset prepared in Milestone 2.
