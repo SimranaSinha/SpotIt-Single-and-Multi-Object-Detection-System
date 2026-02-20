@@ -4,7 +4,7 @@ This project focuses on building a custom image dataset around a single real-wor
 
 ---
 
-📌 Project Objectives
+## 📌 Project Objectives
 
 This milestone consists of two main components:
 
@@ -32,7 +32,7 @@ This step ensures dataset diversity, which is essential for training robust comp
 
 ---
 
-🧠 Models Evaluated
+## 🧠 Models Evaluated
 
 The following deep learning approaches were tested:
 - Convolutional Neural Networks (CNN-based models)
@@ -43,7 +43,7 @@ Each model was trained and evaluated under the same conditions for fair comparis
 
 ---
 
-📊 Evaluation Metrics
+## 📊 Evaluation Metrics
 
 Model performance was measured using:
 - Accuracy
@@ -55,7 +55,7 @@ These metrics helped assess both overall performance and class-level behavior.
 
 ---
 
-🏆 Best Model Selection
+## 🏆 Best Model Selection
 
 The final model was chosen based on:
 - Highest test accuracy
@@ -67,7 +67,7 @@ The selected model is the most suitable for this dataset and object recognition 
 
 ---
 
-📊 Model Performance Summary
+## 📊 Model Performance Summary
 
 - The following table shows the performance of all deep learning models evaluated on the dataset.
 
@@ -79,20 +79,20 @@ The selected model is the most suitable for this dataset and object recognition 
 
 ---
 
-🏆 Best Performing Model
+## 🏆 Best Performing Model
 
 - ResNet18 achieved the highest accuracy and F1 score, showing strong generalization and balanced class performance. It was selected as the final model for this dataset.
 
 ---
 
-📌 Metrics Used
+## 📌 Metrics Used
 - Validation Accuracy – Performance during training to monitor overfitting
 - Test Accuracy – Final performance on unseen data
 - F1 Score (Macro) – Balance between precision and recall across all classes
 
 ---
 
-📁 Repository Contents
+## 📁 Repository Contents
 - Dataset (generated object images)
 - Training and evaluation code
 - Model performance results
@@ -100,8 +100,20 @@ The selected model is the most suitable for this dataset and object recognition 
 - Final analysis of model comparison
 
 ---
+## 🗂 Files Included
 
-🎯 Key Learning Outcomes
+```
+📁 Milestone 1/
+│
+├── 📄 Milestone1 (Group5).ipynb  – Dataset creation, preprocessing, and deep learning model evaluation
+│
+├── 📄 Milestone_1_Group_5.pdf   – Detailed milestone report including methodology and results
+│
+└── 📘 README.md   – Milestone documentation and project overview
+```
+---
+
+## 🎯 Key Learning Outcomes
 - Building a custom computer vision dataset
 - Understanding how data diversity impacts model performance
 - Applying deep learning for image classification
