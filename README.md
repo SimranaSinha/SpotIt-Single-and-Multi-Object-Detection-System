@@ -153,6 +153,7 @@ SpotIt-Single-and-Multi-Object-Detection-System/
 │
 ├── Milestone 3/
 │   ├── Training and Testing.ipynb
+│   ├── README.md
 │
 ├── README.md   (Main Project Overview)
 ```
