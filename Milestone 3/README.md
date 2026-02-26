@@ -109,8 +109,7 @@ The system demonstrates strong performance on the custom synthetic dataset.
 ---
 ## 🗂️ Drive
 
-- Output folder YOLOv8
-https://drive.google.com/drive/folders/15Mnq3MJ09t81ZyLuBWz7eOeKhOqVnWrp?usp=sharing
+- Output folder YOLOv8 : https://drive.google.com/drive/folders/15Mnq3MJ09t81ZyLuBWz7eOeKhOqVnWrp?usp=sharing
 
 ---
 ## 🎯 Conclusion
