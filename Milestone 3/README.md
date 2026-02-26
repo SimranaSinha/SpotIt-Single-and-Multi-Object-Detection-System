@@ -107,7 +107,12 @@ The system demonstrates strong performance on the custom synthetic dataset.
 * Detection requires both classification and spatial accuracy
 
 ---
+## 🗂️ Drive
 
+- Output folder YOLOv8
+https://drive.google.com/drive/folders/15Mnq3MJ09t81ZyLuBWz7eOeKhOqVnWrp?usp=sharing
+
+---
 ## 🎯 Conclusion
 
 Milestone 3 completes the full object detection pipeline by successfully training and evaluating a YOLOv8 model on a custom multi-object dataset.
