@@ -156,6 +156,8 @@ SpotIt-Single-and-Multi-Object-Detection-System/
 │   ├── Training and Testing.ipynb
 │   ├── README.md
 │
+├── DiscriminativeProject_FinalReport_Group5.pdf  (Report)
+│
 ├── README.md   (Main Project Overview)
 
 ```
